@@ -1,0 +1,81 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=3448, tid=3540
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_37-b06
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.12-b01 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000003db000):  JavaThread "Unknown thread" [_thread_in_vm, id=3540, stack(0x0000000001f20000,0x0000000002020000)]
+
+Stack: [0x0000000001f20000,0x0000000002020000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000003db000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3540, stack(0x0000000001f20000,0x0000000002020000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042f000 	C:\Program Files\Java\jdk1.6.0_37\bin\javaw.exe
+0x000007fc24450000 - 0x000007fc2460e000 	C:\Windows\SYSTEM32\ntdll.dll
+0x000007fc24310000 - 0x000007fc24446000 	C:\Windows\system32\KERNEL32.DLL
+0x000007fc217c0000 - 0x000007fc218b3000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fc218c0000 - 0x000007fc2199e000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fc24120000 - 0x000007fc2426c000 	C:\Windows\system32\USER32.dll
+0x000007fc23580000 - 0x000007fc23625000 	C:\Windows\system32\msvcrt.dll
+0x000007fc236a0000 - 0x000007fc236e8000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fc219a0000 - 0x000007fc21ae0000 	C:\Windows\system32\RPCRT4.dll
+0x000007fc23cb0000 - 0x000007fc23df0000 	C:\Windows\system32\GDI32.dll
+0x000007fc23df0000 - 0x000007fc23e29000 	C:\Windows\system32\IMM32.DLL
+0x000007fc21dc0000 - 0x000007fc21ed4000 	C:\Windows\system32\MSCTF.dll
+0x000000006d8b0000 - 0x000000006e06b000 	C:\Program Files\Java\jdk1.6.0_37\jre\bin\server\jvm.dll
+0x000007fc1a890000 - 0x000007fc1a8b0000 	C:\Windows\SYSTEM32\WINMM.dll
+0x000007fc19ed0000 - 0x000007fc19f02000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x000000006d820000 - 0x000000006d82e000 	C:\Program Files\Java\jdk1.6.0_37\jre\bin\verify.dll
+0x000000006d450000 - 0x000000006d477000 	C:\Program Files\Java\jdk1.6.0_37\jre\bin\java.dll
+0x000000006d870000 - 0x000000006d882000 	C:\Program Files\Java\jdk1.6.0_37\jre\bin\zip.dll
+0x000007fc23ca0000 - 0x000007fc23ca7000 	C:\Windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:C:\dev_work\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-19\android.jar 
+java_command: com.example.sockettest.NioClient
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_37
+CLASSPATH=.;C:\Program Files\Java\jdk1.6.0_37\lib\dt.jar;C:\Program Files\Java\jdk1.6.0_37\lib\tools.jar;
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_37\bin;
+USERNAME=c_juanq
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 8271368k(5372972k free), swap 12989960k(8398840k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.12-b01) for windows-amd64 JRE (1.6.0_37-b06), built on Sep 24 2012 11:45:14 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Wed May 21 10:01:10 2014
+elapsed time: 0 seconds
+
